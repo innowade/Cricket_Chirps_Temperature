@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic[17]"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/do you know?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:text="@string/do_you_know_you_can_determine_the_outside_temperature_by_counting_the_number_of_chirps_a_cricket_makes_just_count_the_number_of_chirps_one_makes_every_25_seconds_and_place_that_number_in_the_box_below" />
+
+    <EditText
+        android:id="@+id/number of chirps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/number_of_chirps_in_25_seconds"
+        android:inputType="number"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/calculate_temperature"
+        android:backgroundTint="#8B4513"
+        android:textColor="#FFFFFF" tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/textview" />
+
+</LinearLayout>

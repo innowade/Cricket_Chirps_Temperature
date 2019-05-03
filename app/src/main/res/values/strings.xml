@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CricketChirpsTemp</string>
+    <string name="do_you_know_you_can_determine_the_outside_temperature_by_counting_the_number_of_chirps_a_cricket_makes_just_count_the_number_of_chirps_one_makes_every_25_seconds_and_place_that_number_in_the_box_below">Do you know you can determine the outside temperature by counting the number of chirps a cricket makes? Just count the number of chirps one makes every 25 seconds and place that number in the box below.</string>
+    <string name="calculate_temperature">CALCULATE TEMPERATURE</string>
+    <string name="textview">TextView</string>
+    <string name="number_of_chirps_in_25_seconds">Number of chirps in 25 seconds</string>
+    <string name="todo">TODO</string>
+</resources>
